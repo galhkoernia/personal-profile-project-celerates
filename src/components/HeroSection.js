@@ -33,7 +33,7 @@ const HeroSection = () => {
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                 <span className="text-lg md:text-xl font-medium text-white/90 bg-white/10 px-4 py-2 rounded-full border border-white/20">
-                  Student Physics at University Surabaya State
+                  Student of Physics at Surabaya State University
                 </span>
               </div>
             </div>
