@@ -16,21 +16,21 @@ import {
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Ekawati M",
+      name: "Indah D",
       position: "Kepala Sekolah",
       content: "Website-nya terlihat profesional, tampilannya keren, dan sangat responsif di berbagai perangkat.",
       icon: faUserTie,
       color: "from-purple-500 to-cyan-500"
     },
     {
-      name: "Ainun M", 
+      name: "John C", 
       position: "Manager PLN",
       content: "Hasil pengerjaannya sangat memuaskan, desainnya rapi dan performanya mantap!",
       icon: faUserTie,
       color: "from-blue-500 to-pink-500"
     },
     {
-      name: "Tika M",
+      name: "Doni A",
       position: "Konsultan ",
       content: "Website-nya terlihat profesional, tampilannya keren, dan sangat responsif di berbagai perangkat.",
       icon: faUserTie,
