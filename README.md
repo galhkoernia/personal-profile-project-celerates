@@ -3,6 +3,10 @@
 Website portofolio pribadi yang menampilkan profil, keahlian, dan proyek profesional dengan desain modern dan user-friendly.  
 Dibuat sebagai tugas **Bootcamp Celerates**, menggunakan **React.js** dan **Tailwind CSS** dengan pendekatan **modular dan responsif**.
 
+## **Demo Project!**
+
+_https://personal-profile-project-celerates.vercel.app/_
+
 ---
 
 ## Teknologi
