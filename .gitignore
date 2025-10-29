@@ -1,0 +1,17 @@
+# Folder dependencies
+node_modules/
+
+# Folder hasil build atau produksi
+build/
+
+# File environment (berisi variabel sensitif)
+.env
+
+# Opsional (boleh ditambah jika pakai framework modern)
+.env.local
+.env.development
+.env.production
+
+# Sistem & log
+.DS_Store
+*.log

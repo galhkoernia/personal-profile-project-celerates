@@ -1,0 +1,63 @@
+/*
+ * File  : index.css
+ * Created on Tue Oct 26 2025
+ * Author: Galuh Kurnia
+ * Copyright (c) 2025 Your Company
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Custom Colors based on design analysis */
+:root {
+  --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  --gradient-button: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-accent: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --color-text-dark: #2d3748;
+  --color-text-light: #718096;
+  --color-white: #ffffff;
+  --shadow-soft: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 5px 10px -5px rgba(0, 0, 0, 0.01);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-text-dark);
+}
+
+/* Hero Background Gradient */
+.hero-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+}
+
+/* Button Gradient */
+.btn-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+}
+
+/* Card Styles */
+.card-soft {
+  background: var(--color-white);
+  box-shadow: var(--shadow-soft);
+  border-radius: 16px;
+}
+
+/* Custom component classes */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
