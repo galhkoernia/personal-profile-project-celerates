@@ -21,19 +21,19 @@ const PortfolioSection = () => {
     tags: ["SketchUp", "3D", "V-Ray"],
     demoUrl: "#",
   },
+    // {
+    //   id: 2,
+    //   title: "Personal Portfolio",
+    //   category: "Website", 
+    //   description: "Website portofolio pribadi yang dibangun dengan Next.js.",
+    //   fullDescription: "Karya ini merupakan website portofolio pribadi yang dikembangkan menggunakan Next.js. Website ini berfungsi sebagai wadah untuk menampilkan karya, proyek, dan tulisan pribadi secara profesional. Fokus pengembangan berada pada tampilan responsif, struktur navigasi yang sederhana, serta kemudahan pengelolaan konten.",
+    //   image: "/assets/images/work/02-personal-portfolio.png",
+    //   tags: ["Frontend", "Web Development", "Portfolio"],
+    //   demoUrl: "https://www.galhkoernia.my.id/",
+    //   date: "15-03-2025"
+    // },
     {
       id: 2,
-      title: "Personal Portfolio",
-      category: "Website", 
-      description: "Website portofolio pribadi yang dibangun dengan Next.js.",
-      fullDescription: "Karya ini merupakan website portofolio pribadi yang dikembangkan menggunakan Next.js. Website ini berfungsi sebagai wadah untuk menampilkan karya, proyek, dan tulisan pribadi secara profesional. Fokus pengembangan berada pada tampilan responsif, struktur navigasi yang sederhana, serta kemudahan pengelolaan konten.",
-      image: "/assets/images/work/02-personal-portfolio.png",
-      tags: ["Frontend", "Web Development", "Portfolio"],
-      demoUrl: "https://www.galhkoernia.my.id/",
-      date: "15-03-2025"
-    },
-    {
-      id: 3,
       title: "GALHAI — Tempat Berlabuhnya Cerita",
       category: "AI Application",
       description: "Terinspirasi dari kesunyian, GALHAI adalah sebuah ChatBox AI yang tengah dikembangkan sejak Mei 2025 hingga kini",
@@ -44,7 +44,7 @@ const PortfolioSection = () => {
       date: "10-05-2025 — sekarang"
     },
     {
-      id: 4,
+      id: 3,
       title: "Labtronika — Website Eksperimen Elektronika",
       category: "Web Application",
       description: "Website ini merupakan luaran dari kegiatan Studi Independen bersama mitra, yang berfokus pada eksperimen dan pembelajaran elektronika secara interaktif.",

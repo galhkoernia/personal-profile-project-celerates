@@ -120,7 +120,7 @@ const HeroSection = () => {
 
                 <div className="relative w-full h-full rounded-2xl overflow-hidden border-4 border-white/40 shadow-2xl shadow-blue-500/25 backdrop-blur-sm">
                   <img
-                    src="/assets/images/personal/galuh-kurnia.png"
+                    src="/assets/images/personal/galuh.png"
                     alt="GALH"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
